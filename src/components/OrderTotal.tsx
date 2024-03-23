@@ -13,7 +13,7 @@ export const OrderTotal = ({ order, tip }: OrderTotalProps) => {
       <h3 className="font-bold text-xl">Total:</h3>
       <p className="font-bold text-sm pl-2 text-gray-700">
         Subtotal:{" "}
-        <span className="font-normal">{formatCurrency(subTotalAcount())}</span>
+        <span className="font-normal">{formatCurrency(subTotalAcount)}</span>
       </p>
       <p className="font-bold text-sm pl-2 text-gray-700">
         Tip:{" "}
