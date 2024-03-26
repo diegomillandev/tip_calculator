@@ -1,6 +1,6 @@
 import { Dispatch } from 'react';
 import { tipOptions } from '../const';
-import { ActionOrder, OrderState } from '../reducers/order-reducer';
+import { ActionOrder } from '../reducers/order-reducer';
 import { TipOptions } from '../types';
 
 type tipFormprops = {
